@@ -1,0 +1,25 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "modules": false,
+                "targets": {
+                    "browsers": [
+                        "last 2 versions",
+                        "safari >= 8",
+                        "ie >= 9",
+                        "ios >= 8"
+                    ]
+                }
+            }
+        ],
+        "stage-2"
+    ],
+    "plugins": [
+        "transform-decorators-legacy",
+        "transform-vue-jsx",
+        "transform-runtime",
+        "transform-function-bind"
+    ]
+}
